@@ -8,21 +8,39 @@
 </head>
 <body>
     <div class="middle-content">
+        <div class="center-in-parent">
         <form name="binary-form">
             <h2>Convert Binary</h2>
-            <input type="text" size="48" id="binary" placeholder=""></input>
-            <select>
-                <option>Binary</option>
-                <option>Decimal</option>
+            <input type="text" size="48" id="input" placeholder=""></input>
+            <select id="inputBaseOptions">
+                <option value="1">Unary</option>
+                <option value="2" selected="selected">Binary</option>
+                <option value="3">Ternary</option>
+                <option value="4">Quaternary</option>
+                <option value="5">Quinary</option>
+                <option value="6">Senary</option>
+                <option value="7">Septenary</option>
+                <option value="8">Octal</option>
+                <option value="9">Nonary</option>
+                <option value="10">Decimal</option>
             </select>
-            <input type="text" size="48" id="decimal" placeholder=""></input> 
-            <select>
-                <option>Decimal</option>
-                <option>Binary</option>
+            <input type="text" size="48" id="output" placeholder=""></input> 
+            <select id="outputBaseOptions">
+                <option value="1">Unary</option>
+                <option value="2">Binary</option>
+                <option value="3">Ternary</option>
+                <option value="4">Quaternary</option>
+                <option value="5">Quinary</option>
+                <option value="6">Senary</option>
+                <option value="7">Septenary</option>
+                <option value="8">Octal</option>
+                <option value="9">Nonary</option>
+                <option value="10" selected="selected">Decimal</option>
             </select>
             <br>
             <input type="button" value="convert" id="submit" onclick="compute()"></input>
             </form>
+        </div>
     </div>
 </body>
 </html>
