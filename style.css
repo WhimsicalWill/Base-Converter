@@ -15,6 +15,7 @@ body {
 }
 
 
-#binary {
+.center-in-parent {
+    display: inline-block;
     text-align: center;
 }
