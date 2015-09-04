@@ -1,0 +1,21 @@
+body {
+    font-family: Roboto;
+    background-color: bisque;
+}
+
+.middle-content {
+    width: 650px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: white;
+}
+
+
+.center-in-parent {
+    display: inline-block;
+    text-align: center;
+}
